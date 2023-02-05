@@ -47,7 +47,8 @@ void loop() {
     for(k = (A_seg); k <=(G_seg+2); k++){
     digitalWrite(k, displaySeteSeg[i][k-A_seg]);
     }
-  delay(300);
+  // deboucing
+  delay(200);
   if(i==9){
     i=-1;
   }
