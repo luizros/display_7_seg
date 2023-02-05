@@ -9,7 +9,7 @@
 
 int i, k;
 
-byte displaySeteSeg[10][8] = { 
+int displaySeteSeg[10][8] = { 
  //A B C D E F G
  { 1,1,1,1,1,1,0 },  //DIGITO 0
  { 0,1,1,0,0,0,0 },  //DIGITO 1
